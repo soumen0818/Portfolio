@@ -5,7 +5,7 @@ A modern, interactive 3D portfolio built with React, Vite, Tailwind CSS, Framer 
 
 ## Demo
 
-Check out the live demo: [Your Portfolio URL](https://your-portfolio-url.com)
+Check out the live demo: [Your Portfolio URL](https://portfolio-hjj1.vercel.app/)
 
 ---
 
@@ -36,8 +36,8 @@ Check out the live demo: [Your Portfolio URL](https://your-portfolio-url.com)
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/3d-portfolio.git
-   cd 3d-portfolio
+   git clone https://github.com/soumen0818/Portfolio.git
+   cd Portfolio
    ```
 2. Install dependencies:
 
@@ -87,6 +87,6 @@ Contributions are welcome! Please open an issue or submit a pull request for enh
 ## Contact
 
 * **Author**: Soumen Das
-* **Email**: [dassoumen0818@gmail.com](mailto:your.email@example.com)
-* **GitHub**: [soumen0818](https://github.com/yourusername)
-* **Website**: [https://your-portfolio-url.com](https://your-portfolio-url.com)
+* **Email**: [email](dassoumen0818@gmail.com)
+* **GitHub**: [Github](https://github.com/soumen0818)
+* **Website**: [Portfolio](https://portfolio-hjj1.vercel.app/)
