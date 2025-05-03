@@ -21,7 +21,7 @@ import {
   tesla,
   shopify,
   companion,
-  skill,
+  sync,
   threejs,
 } from "../assets";
 
@@ -257,7 +257,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: skill,
+    image: sync,
     source_code_link: "https://github.com/soumen0818/H4B",
   },
 ];

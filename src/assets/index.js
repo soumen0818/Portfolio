@@ -29,7 +29,7 @@ import tesla from "./company/tesla.png";
 
 import GreenTrack from "./GreenTrack.png";
 import companion from "./companion.jpg";
-import skill from "./skill.jpg";
+import sync from "./sync.jpg";
 
 export {
   logo,
@@ -60,5 +60,5 @@ export {
   starbucks,
   tesla,
   companion,
-  skill,
+  sync,
 };
