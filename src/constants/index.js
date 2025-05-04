@@ -240,7 +240,7 @@ const projects = [
     source_code_link: "https://github.com/soumen0818/Companion",
   },
   {
-    name: "Skill Scyn",
+    name: "Skill Sync",
     description:
       "SkillSync is a next-generation recruitment and professional verification platform built for the modern tech ecosystem. It combines blockchain-based job and work verification with AI-driven talent evaluation, providing a more trustworthy and competitive alternative to traditional platforms like LinkedIn. SkillSync empowers both job seekers and employers by ensuring that skills and experiences are accurately represented and verified.",
     tags: [
