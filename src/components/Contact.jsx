@@ -28,9 +28,15 @@ const Contact = () => {
   };
 
   
-
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Validate form fields
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      alert("Please fill in all fields before sending.");
+      return;
+    }
+
     setLoading(true);
 
     emailjs
@@ -114,11 +120,14 @@ const Contact = () => {
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
-          </label>
-
-          <button
+          </label>          <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            disabled={loading || !form.name.trim() || !form.email.trim() || !form.message.trim()}
+            className={`py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md shadow-primary ${
+              loading || !form.name.trim() || !form.email.trim() || !form.message.trim() 
+                ? 'bg-gray-500 text-gray-300 cursor-not-allowed' 
+                : 'bg-tertiary text-white'
+            }`}
           >
             {loading ? "Sending..." : "Send"}
           </button>
